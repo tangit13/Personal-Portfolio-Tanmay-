@@ -89,6 +89,12 @@ nav ul li a:hover::after{
 
 .about-col-1{
     flex-basis: 35%;
+    opacity: 0.5;
+    transition: 1s;
+}
+.about-col-1:hover{
+    opacity:100%;
+    transition: 1s;
 }
 .about-col-1 img{
     width:100%;
